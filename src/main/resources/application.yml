@@ -11,7 +11,7 @@ spring:
   jpa:
     open-in-view: off
 #    properties:
-#      jakarta.persistence.lock.timeout: 1
+#      jakarta.persistence.lock.timeout: 0
 
 
 #  jpa:
@@ -19,8 +19,4 @@ spring:
 #    properties:
 #      hibernate:
 #        format_sql: true
-
-javax:
-  persistence:
-    lock.timeout: 2000 #WORKS!
 
